@@ -1,17 +1,10 @@
 #include "main.h"
-#include <stdlib.h>
-
 /**
  * _abs - prints absolute value of number
- * @n: The number in question
- *
+ * @ab: The number in question
  * Return: Always 0 (Success)
  */
- int _abs(int n)
+ int _abs(int ab)
  {
-	 int a = abs(n);
-
-	 _putchar(a);
-
-	 return (0);
+	 return (ab * ((ab > 0) - (ab < 0)));
  }
