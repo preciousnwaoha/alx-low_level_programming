@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strcat - Concatenates the string pointed to by @src.
+ * _strcat - Concatenates the string pointed to by @src.
  * @dest: A pointer to the string to be concatenated upon.
  * @src: The source string to be appended to @dest.
  *
@@ -9,8 +9,7 @@
  */
 char *_strcat(char *dest, const char *src)
 {
-	int index = 0;
-	int dest_len = 0;
+	int index = 0, dest_len = 0;
 
 	while (dest[index++])
 		dest_len++;
