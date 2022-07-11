@@ -14,7 +14,7 @@ char *_strchr(char *s, char c)
 	int i;
 	int length;
 
-	length = sizeof(s) / sizeof(s[0])
+	length = sizeof(s) / sizeof(s[0]);
 
 	for (i = 0; i < length; i++)
 	{
